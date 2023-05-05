@@ -13,11 +13,11 @@ for (var i = 0; i < arr.length; i++) {
 }
 // =============================== */
 
-/* // Method pada array
-var arr = ["Aa", "Bb", "Cc"];
+/*// Method pada array
+var arr = ["Aa", "Bb", "Cc", "Ab", "Ba"];
 
 // 1. join
-console.log(arr.join());
+// console.log(arr.join());
 // Bisa diubah bentuk separatornya dengan
 // console.log(arr.join(' - '));
 
@@ -31,4 +31,13 @@ console.log(arr.join());
 // 3. unshift & shift (menambah & menghilangkan elemen baru di awal array)
 // arr.unshift('Abc');
 // arr.shift();
-// console.log(arr.join(' - ')); */
+// console.log(arr.join(' - '));
+
+// 4. splice(indexAwal, mauDihapusBerapa, elemenBaru1, elemenBaru2, ...)
+// arr.splice(2, 0, 'Dd', 'Ee');
+// arr.splice(1, 2, 'Dd', 'Ee');
+// console.log(arr.join(' - '));
+
+// 5. slice(awal, akhir) 'hasil harus ditampung di variabel baru!'
+// var arr2 = arr.slice(1, 3);
+// console.log(arr2.join(" - ")); */
